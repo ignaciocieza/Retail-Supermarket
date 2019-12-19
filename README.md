@@ -1,7 +1,6 @@
 # Retail-Supermarket
 
-App web que simula ser un Retail de un supermercado. Carga dinamicamente los precios, las imagenes y los descuentos. 
-Filtra por marca y categoria. El diseno web es con sass.
+App web que simula ser un Retail de un supermercado. Carga dinámicamente los precios, las imágenes y los descuentos. Filtra por marca y categoría. El diseño web es con sass.
 
 ## Herramientas:
 
