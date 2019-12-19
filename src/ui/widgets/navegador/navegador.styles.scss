@@ -1,0 +1,24 @@
+.navegador{ 
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: #1DB779;     
+}
+
+nav a{
+    color: #FFFFFF;    
+    text-align: center;
+    text-decoration: none;    
+    padding: 2rem;
+    flex-grow: 1;
+    font-weight: 700;
+    font-size: 1.5rem;
+    line-height: 2rem;
+
+    &:hover {
+        cursor: pointer;
+        background:rgb(70, 199, 147) ;
+    }
+    
+}

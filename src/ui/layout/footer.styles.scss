@@ -1,0 +1,40 @@
+.footer{
+    display: flex;
+    flex-direction: row;
+    flex: 1 1 auto;
+    flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: space-evenly;
+    background-color: #1E1E1E;
+
+    .subFooter{
+        display: flex;
+        flex-direction: column;
+        margin-top: 4rem;
+        margin-bottom: 4rem;
+        padding: 1rem;
+        align-items: flex-start;    
+
+        .title{          
+            color: #FFFFFF;            
+            font-size: 1.2rem;
+            font-weight: 700;
+            letter-spacing: .1rem;
+            line-height: 2.7rem;
+        }
+
+        .barra{            
+            box-sizing: border-box;
+            width: 100%;
+            border: .1rem solid #FFFFFF;
+            margin-bottom: .2rem;
+            margin-top: .2rem;            
+        }
+
+        .subTitle{           
+            color: #FFFFFF;
+            font-size: 1.2rem;
+            line-height:2.7rem;        
+        }       
+    }
+}

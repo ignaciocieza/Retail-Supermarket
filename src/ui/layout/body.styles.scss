@@ -1,0 +1,12 @@
+.body{
+    display: flex;
+    flex-direction: row;
+    flex: 1 1 auto;
+    align-items: flex-start;
+    justify-content: stretch;    
+
+    &__filters{
+        flex-direction: column;
+        flex-grow: 1;
+    }
+}

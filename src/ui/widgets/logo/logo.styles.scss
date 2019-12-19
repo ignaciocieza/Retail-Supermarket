@@ -1,0 +1,20 @@
+.logo{
+    display: flex;
+    padding: .5rem;
+    background-color: #F5F5F5;
+    align-content: center;
+    justify-content: center;
+    flex-grow: 2;
+
+    &__type{
+        align-self: center;
+        justify-self: center;
+        width: 26%;
+        opacity: 0.5;
+        
+        @media (max-width: 960px) {
+            width: 6%;
+        }
+    }
+    
+}

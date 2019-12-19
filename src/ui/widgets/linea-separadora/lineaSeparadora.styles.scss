@@ -1,0 +1,23 @@
+.lineaSeparadora{
+    margin: 3rem;
+    display: flex;
+    flex-direction: row;
+    flex: 1 1 auto;
+    align-items: center;
+    justify-content: center;
+    
+
+    &__linea{
+        height: 0.3rem;
+        margin: 1rem;
+        flex-grow: 1;
+        border: 0.1rem solid #9B9B9B;
+    }
+
+    &__titulo{
+        font-size: 3.6rem;
+        font-weight: 700;
+        line-height: 4.9rem;
+        color: #1E1E1E;
+    }    
+}

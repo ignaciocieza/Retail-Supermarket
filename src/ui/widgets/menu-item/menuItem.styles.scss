@@ -1,0 +1,105 @@
+.menu-item {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 auto;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;   
+   
+    &:hover {
+      cursor: pointer;
+  
+      & .background-image {
+        transform: scale(1.1);
+        transition: transform 6s cubic-bezier(0.25, 0.45, 0.45, 0.95);
+        opacity: 0.5;
+      }
+  
+      & .content {
+        opacity: 0.9;
+        
+        & .title{
+          color: #1DB779;
+        }
+      }
+
+      .custom-button{
+        opacity: 0.7;
+        display: flex;
+      }
+      
+    }
+  
+    &:first-child {
+      margin-right: 0.75rem;
+    }
+  
+    &:last-child {
+      margin-left: 0.75rem;
+    }
+    .circulo{
+      margin:0rem 20rem 0rem 0rem;
+      height: 4.6rem;
+      width: 4.6rem;
+      background-color: #00C4C1;
+      color: #FFFFFF;
+      font-weight: bold;
+      font-size: 1.5rem;
+	    border-radius: 50%;
+	    display: flex;
+	    justify-content: center;
+	    align-items: center;
+	    text-align: center;
+    }
+  
+    .background-image {
+      min-width: 20rem; 
+      min-height: 20rem;
+      background-size: cover;
+      background-position: center;
+    }
+  
+    .content {
+      padding: 0 2.5rem;
+      margin: 1rem;
+      display: flex;
+      flex-direction:column;
+      align-items: center; 
+      justify-content: center;
+      opacity: 0.7;
+      position: relative;
+  
+      .title {
+        margin: 0 .6rem 0;
+        font-size: 1.6rem;
+        color: #1E1E1E;
+        line-height: 2.2rem;
+        text-align: center;
+        text-decoration: none;
+      }
+  
+      .subtitleOne {
+        font-weight: lighter;
+        font-size: 13px;
+        color: #9B9B9B;        
+        line-height: 18px;
+        text-align: center;
+        text-decoration:line-through;
+      }
+      .subtitleTwo {
+        font-size: 18px;
+        line-height: 24px;
+        color: #1DB779;
+        font-weight: bold;
+        text-align: center;
+        
+      }
+    }
+    .custom-button{
+      flex-shrink: 1;
+      opacity: 0.4;
+      position: absolute;
+      display: none;
+    }
+  }

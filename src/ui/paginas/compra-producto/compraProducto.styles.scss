@@ -1,0 +1,36 @@
+.checkout-page {
+    max-width: 80vw;
+    min-height: 90vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    margin: 5rem auto 0;
+  
+    .checkout-header {
+      width: 100%;
+      padding: 1rem 0;
+      display: flex;
+      flex-flow: row;
+      flex-wrap: wrap;
+      
+      justify-content: space-between;
+      border-bottom: 0.1rem solid darkgrey;
+  
+      .header-block {
+        text-transform: capitalize;
+        max-width: 23%;
+        font-size: 2rem;
+        
+  
+        &:last-child {
+          width: 8%;
+        }
+      }
+    }  
+    .total {
+      margin-top: 3rem;
+      margin-left: auto;
+      font-size: 2.6rem;
+    }
+  }

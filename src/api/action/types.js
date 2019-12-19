@@ -1,0 +1,13 @@
+export const ALL_PRODUCTS = 'ALL_PRODUCTS';
+export const MENU_LINKS='MENU_LINKS';
+export const LIST_PRODUCTS='LIST_PRODUCTS';
+export const CART_HIDDEN='CART_HIDDEN';
+export const ADD_ITEMS='ADD_ITEMS';
+export const CLEAR_ITEM_FROM_CART='CLEAR_ITEM_FROM_CART';
+export const REMOVE_ITEM= 'REMOVE_ITEM';
+export const RESET_STORE='RESET_STORE';
+export const CHECK_VALUE="CHECK_VALUE";
+export const IS_CHECKED='IS_CHECKED';
+export const ADD_BANNER='ADD_BANNER';
+export const SET_INDICE='SET_INDICE';
+export const SEARCH_VALUE='SEARCH_VALUE';

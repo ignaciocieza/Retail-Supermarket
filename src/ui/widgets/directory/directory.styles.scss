@@ -1,0 +1,6 @@
+.directory__menu {
+    width: 100%;
+    display:grid;
+    grid-template-columns: repeat(auto-fit,minmax(25rem,1fr));
+    grid-template-rows: repeat(auto-fit,1fr);
+  }

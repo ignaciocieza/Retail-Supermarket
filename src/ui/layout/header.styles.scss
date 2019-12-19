@@ -1,0 +1,14 @@
+.header{
+  background:#F5F5F5; 
+  width: 100%;
+  display: flex; 
+  flex-direction: row;
+  flex-wrap: wrap; 
+  
+  .subHeader{
+     width: 70%;
+     flex-grow: 7;
+     flex-direction: column;
+     background-color: white;
+  }
+}
